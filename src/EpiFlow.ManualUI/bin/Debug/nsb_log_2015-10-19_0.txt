@@ -1,0 +1,2490 @@
+﻿2015-10-19 20:47:30.053 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:47:32.245 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:47:32.249 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:47:32.253 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:47:32.257 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:47:32.260 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:47:32.838 ERROR EpiFlow.ManualUI.App The following critical error was encountered:
+Failed to start the bus.
+Process is shutting down.
+System.Configuration.ConfigurationErrorsException: Faults forwarding requires an error queue to be specified. Please add a 'MessageForwardingInCaseOfFaultConfig' section to your app.config
+ or configure a global one using the powershell command: Set-NServiceBusLocalMachineSettings -ErrorQueue {address of error queue}
+   at NServiceBus.Faults.ErrorQueueSettings.GetConfiguredErrorQueue(ReadOnlySettings settings) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\ErrorQueueSettings.cs:line 42
+   at NServiceBus.Features.ForwarderFaultManager.Setup(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\Forwarder\ForwarderFaultManager.cs:line 23
+   at NServiceBus.Features.FeatureActivator.ActivateFeature(FeatureState featureState, IEnumerable`1 featuresToActivate, FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 240
+   at NServiceBus.Features.FeatureActivator.SetupFeatures(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 116
+   at NServiceBus.Configure.Initialize() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Configure.cs:line 115
+   at NServiceBus.Bus.Create(BusConfiguration configuration) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Bus.cs:line 17
+   at EpiFlow.ManualUI.App.StartBus() in M:\Projects\EpiFlow\EpiFlow.ManualUI\App.xaml.cs:line 43
+2015-10-19 20:48:58.236 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:48:58.838 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:48:58.842 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:48:58.847 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:48:58.852 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:48:58.857 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:48:59.482 ERROR EpiFlow.ManualUI.App The following critical error was encountered:
+Failed to start the bus.
+Process is shutting down.
+System.Configuration.ConfigurationErrorsException: Faults forwarding requires an error queue to be specified. Please add a 'MessageForwardingInCaseOfFaultConfig' section to your app.config
+ or configure a global one using the powershell command: Set-NServiceBusLocalMachineSettings -ErrorQueue {address of error queue}
+   at NServiceBus.Faults.ErrorQueueSettings.GetConfiguredErrorQueue(ReadOnlySettings settings) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\ErrorQueueSettings.cs:line 42
+   at NServiceBus.Features.ForwarderFaultManager.Setup(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\Forwarder\ForwarderFaultManager.cs:line 23
+   at NServiceBus.Features.FeatureActivator.ActivateFeature(FeatureState featureState, IEnumerable`1 featuresToActivate, FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 240
+   at NServiceBus.Features.FeatureActivator.SetupFeatures(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 116
+   at NServiceBus.Configure.Initialize() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Configure.cs:line 115
+   at NServiceBus.Bus.Create(BusConfiguration configuration) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Bus.cs:line 17
+   at EpiFlow.ManualUI.App.StartBus() in M:\Projects\EpiFlow\EpiFlow.ManualUI\App.xaml.cs:line 43
+2015-10-19 20:49:05.732 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:49:06.030 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:49:06.034 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:49:06.039 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:49:06.042 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:49:06.046 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:49:06.131 ERROR EpiFlow.ManualUI.App The following critical error was encountered:
+Failed to start the bus.
+Process is shutting down.
+System.Configuration.ConfigurationErrorsException: Faults forwarding requires an error queue to be specified. Please add a 'MessageForwardingInCaseOfFaultConfig' section to your app.config
+ or configure a global one using the powershell command: Set-NServiceBusLocalMachineSettings -ErrorQueue {address of error queue}
+   at NServiceBus.Faults.ErrorQueueSettings.GetConfiguredErrorQueue(ReadOnlySettings settings) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\ErrorQueueSettings.cs:line 42
+   at NServiceBus.Features.ForwarderFaultManager.Setup(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\Forwarder\ForwarderFaultManager.cs:line 23
+   at NServiceBus.Features.FeatureActivator.ActivateFeature(FeatureState featureState, IEnumerable`1 featuresToActivate, FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 240
+   at NServiceBus.Features.FeatureActivator.SetupFeatures(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 116
+   at NServiceBus.Configure.Initialize() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Configure.cs:line 115
+   at NServiceBus.Bus.Create(BusConfiguration configuration) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Bus.cs:line 17
+   at EpiFlow.ManualUI.App.StartBus() in M:\Projects\EpiFlow\EpiFlow.ManualUI\App.xaml.cs:line 43
+2015-10-19 20:51:50.874 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:51:52.173 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:51:52.178 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:51:52.183 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:51:52.189 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:51:52.195 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:51:52.301 ERROR EpiFlow.ManualUI.App The following critical error was encountered:
+Failed to start the bus.
+Process is shutting down.
+System.Configuration.ConfigurationErrorsException: Faults forwarding requires an error queue to be specified. Please add a 'MessageForwardingInCaseOfFaultConfig' section to your app.config
+ or configure a global one using the powershell command: Set-NServiceBusLocalMachineSettings -ErrorQueue {address of error queue}
+   at NServiceBus.Faults.ErrorQueueSettings.GetConfiguredErrorQueue(ReadOnlySettings settings) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\ErrorQueueSettings.cs:line 42
+   at NServiceBus.Features.ForwarderFaultManager.Setup(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\Forwarder\ForwarderFaultManager.cs:line 23
+   at NServiceBus.Features.FeatureActivator.ActivateFeature(FeatureState featureState, IEnumerable`1 featuresToActivate, FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 240
+   at NServiceBus.Features.FeatureActivator.SetupFeatures(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 116
+   at NServiceBus.Configure.Initialize() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Configure.cs:line 115
+   at NServiceBus.Bus.Create(BusConfiguration configuration) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Bus.cs:line 17
+   at EpiFlow.ManualUI.App.StartBus() in M:\Projects\EpiFlow\EpiFlow.ManualUI\App.xaml.cs:line 43
+2015-10-19 20:52:03.312 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:52:03.589 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:52:03.593 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:52:03.597 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:52:03.602 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:52:03.605 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:52:03.696 ERROR EpiFlow.ManualUI.App The following critical error was encountered:
+Failed to start the bus.
+Process is shutting down.
+System.Configuration.ConfigurationErrorsException: Faults forwarding requires an error queue to be specified. Please add a 'MessageForwardingInCaseOfFaultConfig' section to your app.config
+ or configure a global one using the powershell command: Set-NServiceBusLocalMachineSettings -ErrorQueue {address of error queue}
+   at NServiceBus.Faults.ErrorQueueSettings.GetConfiguredErrorQueue(ReadOnlySettings settings) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\ErrorQueueSettings.cs:line 42
+   at NServiceBus.Features.ForwarderFaultManager.Setup(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\Forwarder\ForwarderFaultManager.cs:line 23
+   at NServiceBus.Features.FeatureActivator.ActivateFeature(FeatureState featureState, IEnumerable`1 featuresToActivate, FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 240
+   at NServiceBus.Features.FeatureActivator.SetupFeatures(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 116
+   at NServiceBus.Configure.Initialize() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Configure.cs:line 115
+   at NServiceBus.Bus.Create(BusConfiguration configuration) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Bus.cs:line 17
+   at EpiFlow.ManualUI.App.StartBus() in M:\Projects\EpiFlow\EpiFlow.ManualUI\App.xaml.cs:line 43
+2015-10-19 20:53:38.168 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:55:24.555 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:55:25.180 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:55:25.184 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:55:25.189 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:55:25.193 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:55:25.197 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:55:25.512 ERROR EpiFlow.ManualUI.App The following critical error was encountered:
+Failed to start the bus.
+Process is shutting down.
+System.Configuration.ConfigurationErrorsException: Faults forwarding requires an error queue to be specified. Please add a 'MessageForwardingInCaseOfFaultConfig' section to your app.config
+ or configure a global one using the powershell command: Set-NServiceBusLocalMachineSettings -ErrorQueue {address of error queue}
+   at NServiceBus.Faults.ErrorQueueSettings.GetConfiguredErrorQueue(ReadOnlySettings settings) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\ErrorQueueSettings.cs:line 42
+   at NServiceBus.Features.ForwarderFaultManager.Setup(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\Forwarder\ForwarderFaultManager.cs:line 23
+   at NServiceBus.Features.FeatureActivator.ActivateFeature(FeatureState featureState, IEnumerable`1 featuresToActivate, FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 240
+   at NServiceBus.Features.FeatureActivator.SetupFeatures(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 116
+   at NServiceBus.Configure.Initialize() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Configure.cs:line 115
+   at NServiceBus.Bus.Create(BusConfiguration configuration) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Bus.cs:line 17
+   at EpiFlow.ManualUI.App.StartBus() in M:\Projects\EpiFlow\EpiFlow.ManualUI\App.xaml.cs:line 44
+2015-10-19 20:56:18.189 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:56:18.519 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:56:18.524 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:56:18.528 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:56:18.532 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:56:18.536 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:56:18.640 ERROR EpiFlow.ManualUI.App The following critical error was encountered:
+Failed to start the bus.
+Process is shutting down.
+System.Configuration.ConfigurationErrorsException: Faults forwarding requires an error queue to be specified. Please add a 'MessageForwardingInCaseOfFaultConfig' section to your app.config
+ or configure a global one using the powershell command: Set-NServiceBusLocalMachineSettings -ErrorQueue {address of error queue}
+   at NServiceBus.Faults.ErrorQueueSettings.GetConfiguredErrorQueue(ReadOnlySettings settings) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\ErrorQueueSettings.cs:line 42
+   at NServiceBus.Features.ForwarderFaultManager.Setup(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Faults\Forwarder\ForwarderFaultManager.cs:line 23
+   at NServiceBus.Features.FeatureActivator.ActivateFeature(FeatureState featureState, IEnumerable`1 featuresToActivate, FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 240
+   at NServiceBus.Features.FeatureActivator.SetupFeatures(FeatureConfigurationContext context) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Features\FeatureActivator.cs:line 116
+   at NServiceBus.Configure.Initialize() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Configure.cs:line 115
+   at NServiceBus.Bus.Create(BusConfiguration configuration) in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Bus.cs:line 17
+   at EpiFlow.ManualUI.App.StartBus() in M:\Projects\EpiFlow\EpiFlow.ManualUI\App.xaml.cs:line 44
+2015-10-19 20:57:51.404 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 20:58:03.469 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 20:58:03.473 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 20:58:03.477 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 20:58:03.481 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 20:58:03.485 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 20:59:52.275 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 21:00:01.607 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 21:00:01.611 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 21:00:01.615 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 21:00:01.619 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 21:00:01.623 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 21:00:01.755 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 10/29/2015.
+2015-10-19 21:00:01.807 INFO  NServiceBus.Features.UnicastBus Number of messages found: 5
+2015-10-19 21:00:02.147 INFO  NServiceBus.RavenDB.Internal.ConnectionVerifier Connection to RavenDB at http://localhost:8080 verified. Server version: 3.0.3800
+2015-10-19 21:00:02.650 INFO  NServiceBus.RavenDB.Persistence.RavenUserInstaller Adding user 'Sandy-Scott\Scott' to raven. Instance:'http://localhost:8080', Database:'EpiFlow'.
+2015-10-19 21:00:02.714 WARN  NServiceBus.RavenDB.Persistence.RavenUserInstaller Failed to add user to raven. Processing will continue
+System.Exception: RavenDB requires a Commercial license to configure windows authentication. Please either install your RavenDB license or contact support@particular.net if you need a copy of the RavenDB license.
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.InvokePut(IDatabaseCommands systemCommands, RavenJObject ravenJObject) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 96
+   at CallSite.Target(Closure , CallSite , Type , Object , RavenJObject )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.AddUserToDatabase(String identity, Object documentStore) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 82
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.Install(String identity, Configure config) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 47
+2015-10-19 21:00:02.922 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:00:03.157 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:00:03.276 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:00:03.351 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:00:03.408 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:00:03.467 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:00:03.523 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'Sandy-Scott\Scott' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "Sandy-Scott\Scott" /add
+2015-10-19 21:00:03.531 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: CriticalErrorHandling
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [TimeoutManager]
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No sagas was found in scanned types
+
+Name: SecondLevelRetries
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: NewtonsoftSerialization
+Version: 0.2.0
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -NewtonsoftSerialization not enable since serialization definition not detected.
+
+Name: RavenDbGatewayDeduplication
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: RavenDbSagaStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: RavenDbSubscriptionStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [StorageDrivenPublishing],[SharedDocumentStore]
+
+Name: RavenDbTimeoutStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager],[SharedDocumentStore]
+Startup Tasks: None
+
+Name: SharedDocumentStore
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RavenDbStorageSession
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [RavenDbSagaStorage,RavenDbOutboxStorage]
+
+Name: RavenDbOutboxStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox],[SharedDocumentStore]
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-19 21:00:06.649 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:00:06.655 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'EpiFlow.ManualUI.SANDY-SCOTT' initiated with concurrency '1'
+2015-10-19 21:00:06.682 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:00:06.686 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:00:06.686 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:00:06.686 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:00:06.701 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:00:06.723 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:00:06.746 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:01:15.324 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 21:01:18.281 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 21:01:18.285 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 21:01:18.289 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 21:01:18.293 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 21:01:18.296 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 21:01:18.409 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 10/29/2015.
+2015-10-19 21:01:18.464 INFO  NServiceBus.Features.UnicastBus Number of messages found: 5
+2015-10-19 21:01:18.705 INFO  NServiceBus.RavenDB.Internal.ConnectionVerifier Connection to RavenDB at http://localhost:8080 verified. Server version: 3.0.3800
+2015-10-19 21:01:19.136 INFO  NServiceBus.RavenDB.Persistence.RavenUserInstaller Adding user 'Sandy-Scott\Scott' to raven. Instance:'http://localhost:8080', Database:'EpiFlow'.
+2015-10-19 21:01:19.193 WARN  NServiceBus.RavenDB.Persistence.RavenUserInstaller Failed to add user to raven. Processing will continue
+System.Exception: RavenDB requires a Commercial license to configure windows authentication. Please either install your RavenDB license or contact support@particular.net if you need a copy of the RavenDB license.
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.InvokePut(IDatabaseCommands systemCommands, RavenJObject ravenJObject) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 96
+   at CallSite.Target(Closure , CallSite , Type , Object , RavenJObject )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.AddUserToDatabase(String identity, Object documentStore) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 82
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.Install(String identity, Configure config) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 47
+2015-10-19 21:01:19.404 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:01:19.425 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:01:19.435 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:01:19.463 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:01:19.473 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:01:19.483 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:01:19.560 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'Sandy-Scott\Scott' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "Sandy-Scott\Scott" /add
+2015-10-19 21:01:19.568 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: CriticalErrorHandling
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [TimeoutManager]
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No sagas was found in scanned types
+
+Name: SecondLevelRetries
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: NewtonsoftSerialization
+Version: 0.2.0
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -NewtonsoftSerialization not enable since serialization definition not detected.
+
+Name: RavenDbGatewayDeduplication
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: RavenDbSagaStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: RavenDbSubscriptionStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [StorageDrivenPublishing],[SharedDocumentStore]
+
+Name: RavenDbTimeoutStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager],[SharedDocumentStore]
+Startup Tasks: None
+
+Name: SharedDocumentStore
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RavenDbStorageSession
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [RavenDbSagaStorage,RavenDbOutboxStorage]
+
+Name: RavenDbOutboxStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox],[SharedDocumentStore]
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-19 21:01:20.977 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:01:21.160 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'EpiFlow.ManualUI.SANDY-SCOTT' initiated with concurrency '1'
+2015-10-19 21:01:21.188 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:01:21.191 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:01:21.191 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:01:21.191 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:01:21.199 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:01:21.204 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:01:21.226 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:09:42.930 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 21:09:43.543 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 21:09:43.548 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 21:09:43.553 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 21:09:43.557 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 21:09:43.562 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 21:09:43.876 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 10/29/2015.
+2015-10-19 21:09:43.932 INFO  NServiceBus.Features.UnicastBus Number of messages found: 5
+2015-10-19 21:09:44.227 INFO  NServiceBus.RavenDB.Internal.ConnectionVerifier Connection to RavenDB at http://localhost:8080 verified. Server version: 3.0.3800
+2015-10-19 21:09:44.649 INFO  NServiceBus.RavenDB.Persistence.RavenUserInstaller Adding user 'Sandy-Scott\Scott' to raven. Instance:'http://localhost:8080', Database:'EpiFlow'.
+2015-10-19 21:09:44.706 WARN  NServiceBus.RavenDB.Persistence.RavenUserInstaller Failed to add user to raven. Processing will continue
+System.Exception: RavenDB requires a Commercial license to configure windows authentication. Please either install your RavenDB license or contact support@particular.net if you need a copy of the RavenDB license.
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.InvokePut(IDatabaseCommands systemCommands, RavenJObject ravenJObject) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 96
+   at CallSite.Target(Closure , CallSite , Type , Object , RavenJObject )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.AddUserToDatabase(String identity, Object documentStore) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 82
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.Install(String identity, Configure config) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 47
+2015-10-19 21:09:44.905 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:09:45.104 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:09:45.115 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:09:45.263 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:09:45.422 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:09:45.539 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:09:45.654 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'Sandy-Scott\Scott' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "Sandy-Scott\Scott" /add
+2015-10-19 21:09:45.662 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: CriticalErrorHandling
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [TimeoutManager]
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No sagas was found in scanned types
+
+Name: SecondLevelRetries
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: NewtonsoftSerialization
+Version: 0.2.0
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -NewtonsoftSerialization not enable since serialization definition not detected.
+
+Name: RavenDbGatewayDeduplication
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: RavenDbSagaStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: RavenDbSubscriptionStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [StorageDrivenPublishing],[SharedDocumentStore]
+
+Name: RavenDbTimeoutStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager],[SharedDocumentStore]
+Startup Tasks: None
+
+Name: SharedDocumentStore
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RavenDbStorageSession
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [RavenDbSagaStorage,RavenDbOutboxStorage]
+
+Name: RavenDbOutboxStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox],[SharedDocumentStore]
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-19 21:09:47.076 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:09:47.082 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'EpiFlow.Messages.SANDY-SCOTT' initiated with concurrency '1'
+2015-10-19 21:09:47.090 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:09:47.093 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:09:47.093 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:09:47.093 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:09:47.260 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:09:47.288 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:09:47.285 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:14:13.837 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 21:14:14.821 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 21:14:14.833 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 21:14:14.842 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 21:14:14.848 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 21:14:14.854 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 21:14:14.979 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 10/29/2015.
+2015-10-19 21:14:15.032 INFO  NServiceBus.Features.UnicastBus Number of messages found: 5
+2015-10-19 21:14:15.257 INFO  NServiceBus.RavenDB.Internal.ConnectionVerifier Connection to RavenDB at http://localhost:8080 verified. Server version: 3.0.3800
+2015-10-19 21:14:15.671 INFO  NServiceBus.RavenDB.Persistence.RavenUserInstaller Adding user 'Sandy-Scott\Scott' to raven. Instance:'http://localhost:8080', Database:'EpiFlow'.
+2015-10-19 21:14:15.723 WARN  NServiceBus.RavenDB.Persistence.RavenUserInstaller Failed to add user to raven. Processing will continue
+System.Exception: RavenDB requires a Commercial license to configure windows authentication. Please either install your RavenDB license or contact support@particular.net if you need a copy of the RavenDB license.
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.InvokePut(IDatabaseCommands systemCommands, RavenJObject ravenJObject) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 96
+   at CallSite.Target(Closure , CallSite , Type , Object , RavenJObject )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.AddUserToDatabase(String identity, Object documentStore) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 82
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.Install(String identity, Configure config) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 47
+2015-10-19 21:14:15.944 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:14:15.976 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:14:15.988 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:14:16.017 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:14:16.028 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:14:16.038 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:14:16.098 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'Sandy-Scott\Scott' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "Sandy-Scott\Scott" /add
+2015-10-19 21:14:16.107 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: CriticalErrorHandling
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [TimeoutManager]
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No sagas was found in scanned types
+
+Name: SecondLevelRetries
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: NewtonsoftSerialization
+Version: 0.2.0
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -NewtonsoftSerialization not enable since serialization definition not detected.
+
+Name: RavenDbGatewayDeduplication
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: RavenDbSagaStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: RavenDbSubscriptionStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [StorageDrivenPublishing],[SharedDocumentStore]
+
+Name: RavenDbTimeoutStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager],[SharedDocumentStore]
+Startup Tasks: None
+
+Name: SharedDocumentStore
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RavenDbStorageSession
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [RavenDbSagaStorage,RavenDbOutboxStorage]
+
+Name: RavenDbOutboxStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox],[SharedDocumentStore]
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-19 21:14:17.513 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:14:17.697 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'EpiFlow.Messages.SANDY-SCOTT' initiated with concurrency '1'
+2015-10-19 21:14:17.704 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:14:17.707 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:14:17.707 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:14:17.707 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:14:17.716 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:14:17.722 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:14:17.743 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:16:46.378 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 21:16:47.059 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 21:16:47.064 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 21:16:47.068 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 21:16:47.072 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 21:16:47.076 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 21:16:47.743 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 10/29/2015.
+2015-10-19 21:16:47.796 INFO  NServiceBus.Features.UnicastBus Number of messages found: 5
+2015-10-19 21:16:48.071 INFO  NServiceBus.RavenDB.Internal.ConnectionVerifier Connection to RavenDB at http://localhost:8080 verified. Server version: 3.0.3800
+2015-10-19 21:16:48.489 INFO  NServiceBus.RavenDB.Persistence.RavenUserInstaller Adding user 'Sandy-Scott\Scott' to raven. Instance:'http://localhost:8080', Database:'EpiFlow'.
+2015-10-19 21:16:48.543 WARN  NServiceBus.RavenDB.Persistence.RavenUserInstaller Failed to add user to raven. Processing will continue
+System.Exception: RavenDB requires a Commercial license to configure windows authentication. Please either install your RavenDB license or contact support@particular.net if you need a copy of the RavenDB license.
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.InvokePut(IDatabaseCommands systemCommands, RavenJObject ravenJObject) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 96
+   at CallSite.Target(Closure , CallSite , Type , Object , RavenJObject )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.AddUserToDatabase(String identity, Object documentStore) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 82
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.Install(String identity, Configure config) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 47
+2015-10-19 21:16:48.755 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:16:48.776 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:16:48.786 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:16:48.815 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:16:48.831 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:16:48.842 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:16:48.911 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'Sandy-Scott\Scott' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "Sandy-Scott\Scott" /add
+2015-10-19 21:16:48.919 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: CriticalErrorHandling
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [TimeoutManager]
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No sagas was found in scanned types
+
+Name: SecondLevelRetries
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: NewtonsoftSerialization
+Version: 0.2.0
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -NewtonsoftSerialization not enable since serialization definition not detected.
+
+Name: RavenDbGatewayDeduplication
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: RavenDbSagaStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: RavenDbSubscriptionStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [StorageDrivenPublishing],[SharedDocumentStore]
+
+Name: RavenDbTimeoutStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager],[SharedDocumentStore]
+Startup Tasks: None
+
+Name: SharedDocumentStore
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RavenDbStorageSession
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [RavenDbSagaStorage,RavenDbOutboxStorage]
+
+Name: RavenDbOutboxStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox],[SharedDocumentStore]
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-19 21:16:50.326 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:50.510 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'EpiFlow.Messages.SANDY-SCOTT' initiated with concurrency '1'
+2015-10-19 21:16:50.518 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:16:50.522 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:50.522 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:50.544 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:50.555 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:16:50.552 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:16:50.580 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:16:54.746 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 21:16:55.019 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 21:16:55.023 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 21:16:55.030 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 21:16:55.036 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 21:16:55.041 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 21:16:55.161 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 10/29/2015.
+2015-10-19 21:16:55.213 INFO  NServiceBus.Features.UnicastBus Number of messages found: 5
+2015-10-19 21:16:55.453 INFO  NServiceBus.RavenDB.Internal.ConnectionVerifier Connection to RavenDB at http://localhost:8080 verified. Server version: 3.0.3800
+2015-10-19 21:16:55.887 INFO  NServiceBus.RavenDB.Persistence.RavenUserInstaller Adding user 'Sandy-Scott\Scott' to raven. Instance:'http://localhost:8080', Database:'EpiFlow'.
+2015-10-19 21:16:55.941 WARN  NServiceBus.RavenDB.Persistence.RavenUserInstaller Failed to add user to raven. Processing will continue
+System.Exception: RavenDB requires a Commercial license to configure windows authentication. Please either install your RavenDB license or contact support@particular.net if you need a copy of the RavenDB license.
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.InvokePut(IDatabaseCommands systemCommands, RavenJObject ravenJObject) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 96
+   at CallSite.Target(Closure , CallSite , Type , Object , RavenJObject )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.AddUserToDatabase(String identity, Object documentStore) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 82
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.Install(String identity, Configure config) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 47
+2015-10-19 21:16:55.951 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: CriticalErrorHandling
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: CriticalTimeMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [TimeoutManager]
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No sagas was found in scanned types
+
+Name: SecondLevelRetries
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: NewtonsoftSerialization
+Version: 0.2.0
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -NewtonsoftSerialization not enable since serialization definition not detected.
+
+Name: RavenDbGatewayDeduplication
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: RavenDbSagaStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: RavenDbSubscriptionStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [StorageDrivenPublishing],[SharedDocumentStore]
+
+Name: RavenDbTimeoutStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager],[SharedDocumentStore]
+Startup Tasks: None
+
+Name: SharedDocumentStore
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RavenDbStorageSession
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [RavenDbSagaStorage,RavenDbOutboxStorage]
+
+Name: RavenDbOutboxStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox],[SharedDocumentStore]
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-19 21:16:56.007 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:56.013 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'EpiFlow.Messages.SANDY-SCOTT' initiated with concurrency '1'
+2015-10-19 21:16:56.027 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:56.029 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:56.030 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:16:56.041 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:16:56.048 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:16:56.035 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:16:56.274 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:52.058 INFO  DefaultFactory Logging to 'M:\Projects\EpiFlow\EpiFlow.ManualUI\bin\Debug\' with level Info
+2015-10-19 21:18:52.482 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-10-19 21:18:52.486 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-10-19 21:18:52.490 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-10-19 21:18:52.494 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-10-19 21:18:52.498 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'RavenDBPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-10-19 21:18:52.609 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 10/29/2015.
+2015-10-19 21:18:52.661 INFO  NServiceBus.Features.UnicastBus Number of messages found: 5
+2015-10-19 21:18:52.911 INFO  NServiceBus.RavenDB.Internal.ConnectionVerifier Connection to RavenDB at http://localhost:8080 verified. Server version: 3.0.3800
+2015-10-19 21:18:53.321 INFO  NServiceBus.RavenDB.Persistence.RavenUserInstaller Adding user 'Sandy-Scott\Scott' to raven. Instance:'http://localhost:8080', Database:'EpiFlow'.
+2015-10-19 21:18:53.375 WARN  NServiceBus.RavenDB.Persistence.RavenUserInstaller Failed to add user to raven. Processing will continue
+System.Exception: RavenDB requires a Commercial license to configure windows authentication. Please either install your RavenDB license or contact support@particular.net if you need a copy of the RavenDB license.
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.InvokePut(IDatabaseCommands systemCommands, RavenJObject ravenJObject) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 96
+   at CallSite.Target(Closure , CallSite , Type , Object , RavenJObject )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.AddUserToDatabase(String identity, Object documentStore) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 82
+   at NServiceBus.RavenDB.Persistence.RavenUserInstaller.Install(String identity, Configure config) in C:\BuildAgent\work\c4d62ce02b983878\src\NServiceBus.RavenDB\Internal\RavenUserInstaller.cs:line 47
+2015-10-19 21:18:53.584 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:53.604 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:53.615 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:53.644 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:53.654 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:53.664 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:53.741 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'Sandy-Scott\Scott' to group 'Performance Monitor Users' since process is not running with elevate privileges. Processing will continue. To manually perform this action run the following command from an admin console:
+net localgroup "Performance Monitor Users" "Sandy-Scott\Scott" /add
+2015-10-19 21:18:53.749 INFO  NServiceBus.Features.DisplayDiagnosticsForFeatures ------------- FEATURES ----------------
+Name: CriticalErrorHandling
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomIDataBus
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: DataBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No databus properties was found in available messages
+
+Name: Encryptor
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No encryption properties was found in available messages
+
+Name: ErrorSubscribers
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: ForwarderFaultManager
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: InMemoryFaultManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InstallationSupport
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CriticalTimeMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Audit
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No configured audit queue was found
+
+Name: AutoSubscribe
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: ApplySubscriptions
+
+Name: MsmqSubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: Scheduler
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: CustomSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -CustomSerialization not enable since serialization definition not detected.
+
+Name: ForwardReceivedMessages
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No forwarding address was defined in the unicastbus config
+
+Name: RegisterHandlersInOrder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: SLAMonitoring
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: LicenseReminder
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: Outbox
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: InMemoryGatewayPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: InMemoryOutboxPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox]
+
+Name: InMemorySagaPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: InMemorySubscriptionPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [MessageDrivenSubscriptions]
+
+Name: InMemoryTimeoutPersistence
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [TimeoutManager]
+
+Name: TimeoutManagerBasedDeferral
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: UnicastBus
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: BinarySerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BinarySerialization not enable since serialization definition not detected.
+
+Name: BsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -BsonSerialization not enable since serialization definition not detected.
+
+Name: JsonSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: XmlSerialization
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -XmlSerialization not enable since serialization definition not detected.
+
+Name: MsmqTransportConfigurator
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: TimeoutManager
+Version: 5.2.8
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManagerBasedDeferral]
+Startup Tasks: None
+
+Name: Sagas
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -No sagas was found in scanned types
+
+Name: SecondLevelRetries
+Version: 5.2.8
+Enabled by Default: Yes
+Status: Enabled
+Dependencies: [ForwarderFaultManager]
+Startup Tasks: None
+
+Name: DataBusFileBased
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [DataBus]
+
+Name: StorageDrivenPublishing
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: MessageDrivenSubscriptions
+Version: 5.2.8
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: 
+
+Name: NewtonsoftSerialization
+Version: 0.2.0
+Enabled by Default: Yes
+Status: Disabled
+Deactivation reason: Did not fulfill its Prerequisites:
+   -NewtonsoftSerialization not enable since serialization definition not detected.
+
+Name: RavenDbGatewayDeduplication
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Gateway]
+
+Name: RavenDbSagaStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Sagas]
+
+Name: RavenDbSubscriptionStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [StorageDrivenPublishing],[SharedDocumentStore]
+
+Name: RavenDbTimeoutStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: [TimeoutManager],[SharedDocumentStore]
+Startup Tasks: None
+
+Name: SharedDocumentStore
+Version: 3.0.4
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+Name: RavenDbStorageSession
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [RavenDbSagaStorage,RavenDbOutboxStorage]
+
+Name: RavenDbOutboxStorage
+Version: 3.0.4
+Enabled by Default: No
+Status: Disabled
+Deactivation reason: Did not meet one of the dependencies: [Outbox],[SharedDocumentStore]
+
+Name: RabbitMqTransport
+Version: 3.0.0
+Enabled by Default: No
+Status: Enabled
+Dependencies: None
+Startup Tasks: None
+
+
+2015-10-19 21:18:55.156 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:18:55.340 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy Secondary receiver for queue 'EpiFlow.Messages.SANDY-SCOTT' initiated with concurrency '1'
+2015-10-19 21:18:55.369 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-10-19 21:18:55.379 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:18:55.379 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:18:55.379 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqDequeueStrategy No prefetch count configured, defaulting to 1 (the configured concurrency level)
+2015-10-19 21:18:55.396 INFO  NServiceBus.Satellites.SatelliteLauncher Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:18:55.390 INFO  NServiceBus.Satellites.SatelliteLauncher Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-10-19 21:18:55.402 INFO  NServiceBus.Satellites.SatelliteLauncher Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite

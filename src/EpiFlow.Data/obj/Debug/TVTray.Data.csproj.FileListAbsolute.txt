@@ -1,0 +1,4 @@
+M:\Projects\TVTray - 2012\TVTray.Data\bin\Debug\TVTray.Data.dll
+M:\Projects\TVTray - 2012\TVTray.Data\bin\Debug\TVTray.Data.pdb
+M:\Projects\TVTray - 2012\TVTray.Data\obj\Debug\TVTray.Data.dll
+M:\Projects\TVTray - 2012\TVTray.Data\obj\Debug\TVTray.Data.pdb

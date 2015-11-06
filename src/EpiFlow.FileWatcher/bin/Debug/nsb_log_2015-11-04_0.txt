@@ -1,0 +1,1 @@
+﻿2015-11-04 18:33:10.186 INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'

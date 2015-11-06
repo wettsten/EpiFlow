@@ -1,0 +1,5 @@
+M:\Projects\EpiFlow\EpiFlow.Data\bin\Debug\EpiFlow.Data.dll
+M:\Projects\EpiFlow\EpiFlow.Data\bin\Debug\EpiFlow.Data.pdb
+M:\Projects\EpiFlow\EpiFlow.Data\obj\Debug\EpiFlow.Data.dll
+M:\Projects\EpiFlow\EpiFlow.Data\obj\Debug\EpiFlow.Data.pdb
+M:\Projects\EpiFlow\EpiFlow.Data\obj\Debug\EpiFlow.Data.csprojResolveAssemblyReference.cache

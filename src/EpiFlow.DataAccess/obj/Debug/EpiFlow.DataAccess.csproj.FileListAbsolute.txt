@@ -1,0 +1,13 @@
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\Raven.Abstractions.dll
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\Raven.Client.Lightweight.dll
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\Raven.Abstractions.pdb
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\Raven.Abstractions.xml
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\Raven.Client.Lightweight.pdb
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\Raven.Client.Lightweight.xml
+M:\Projects\EpiFlow\EpiFlow.DataAccess\obj\Debug\EpiFlow.DataAccess.csprojResolveAssemblyReference.cache
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\EpiFlow.DataAccess.dll
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\EpiFlow.DataAccess.pdb
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\EpiFlow.Data.dll
+M:\Projects\EpiFlow\EpiFlow.DataAccess\bin\Debug\EpiFlow.Data.pdb
+M:\Projects\EpiFlow\EpiFlow.DataAccess\obj\Debug\EpiFlow.DataAccess.dll
+M:\Projects\EpiFlow\EpiFlow.DataAccess\obj\Debug\EpiFlow.DataAccess.pdb

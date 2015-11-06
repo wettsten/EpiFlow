@@ -1,0 +1,15 @@
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\Raven.Client.Lightweight.dll
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\Raven.Abstractions.dll
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\Raven.Client.Lightweight.pdb
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\Raven.Client.Lightweight.xml
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\Raven.Abstractions.pdb
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\Raven.Abstractions.xml
+M:\Projects\EpiFlow\EpiFlow.Common\obj\Debug\EpiFlow.Common.csprojResolveAssemblyReference.cache
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\EpiFlow.Common.dll
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\EpiFlow.Common.pdb
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\EpiFlow.Data.dll
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\EpiFlow.DataAccess.dll
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\EpiFlow.DataAccess.pdb
+M:\Projects\EpiFlow\EpiFlow.Common\bin\Debug\EpiFlow.Data.pdb
+M:\Projects\EpiFlow\EpiFlow.Common\obj\Debug\EpiFlow.Common.dll
+M:\Projects\EpiFlow\EpiFlow.Common\obj\Debug\EpiFlow.Common.pdb

@@ -1,0 +1,10 @@
+M:\Projects\TVTray - 2012\TVTray.Messages\bin\Debug\TVTray.Messages.dll
+M:\Projects\TVTray - 2012\TVTray.Messages\bin\Debug\TVTray.Messages.pdb
+M:\Projects\TVTray - 2012\TVTray.Messages\bin\Debug\NServiceBus.Core.dll
+M:\Projects\TVTray - 2012\TVTray.Messages\bin\Debug\NServiceBus.Core.pdb
+M:\Projects\TVTray - 2012\TVTray.Messages\bin\Debug\NServiceBus.Core.xml
+M:\Projects\TVTray - 2012\TVTray.Messages\obj\Debug\TVTray.Messages.dll
+M:\Projects\TVTray - 2012\TVTray.Messages\obj\Debug\TVTray.Messages.pdb
+M:\Projects\TVTray - 2012\TVTray.Messages\obj\Debug\TVTray.Messages.csprojResolveAssemblyReference.cache
+M:\Projects\TVTray - 2012\TVTray.Messages\bin\Debug\TVTray.Data.dll
+M:\Projects\TVTray - 2012\TVTray.Messages\bin\Debug\TVTray.Data.pdb

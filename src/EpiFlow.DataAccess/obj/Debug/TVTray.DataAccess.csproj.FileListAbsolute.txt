@@ -1,0 +1,13 @@
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\TVTray.DataAccess.dll
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\TVTray.DataAccess.pdb
+M:\Projects\TVTray - 2012\TVTray.DataAccess\obj\Debug\TVTray.DataAccess.csprojResolveAssemblyReference.cache
+M:\Projects\TVTray - 2012\TVTray.DataAccess\obj\Debug\TVTray.DataAccess.dll
+M:\Projects\TVTray - 2012\TVTray.DataAccess\obj\Debug\TVTray.DataAccess.pdb
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\TVTray.Data.dll
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\TVTray.Data.pdb
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\Raven.Abstractions.dll
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\Raven.Client.Lightweight.dll
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\Raven.Abstractions.pdb
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\Raven.Abstractions.xml
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\Raven.Client.Lightweight.pdb
+M:\Projects\TVTray - 2012\TVTray.DataAccess\bin\Debug\Raven.Client.Lightweight.xml

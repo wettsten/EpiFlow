@@ -1,0 +1,10 @@
+M:\Projects\EpiFlow\EpiFlow.OldProject\obj\Debug\EpiFlow.NewFile.resources
+M:\Projects\EpiFlow\EpiFlow.OldProject\obj\Debug\EpiFlow.OldProject.Properties.Resources.resources
+M:\Projects\EpiFlow\EpiFlow.OldProject\obj\Debug\EpiFlow.Rename.resources
+M:\Projects\EpiFlow\EpiFlow.OldProject\obj\Debug\EpiFlow.SearchForm.resources
+M:\Projects\EpiFlow\EpiFlow.OldProject\obj\Debug\EpiFlow.OldProject.csproj.GenerateResource.Cache
+M:\Projects\EpiFlow\EpiFlow.OldProject\bin\Debug\EpiFlow.OldProject.exe.config
+M:\Projects\EpiFlow\EpiFlow.OldProject\bin\Debug\EpiFlow.OldProject.exe
+M:\Projects\EpiFlow\EpiFlow.OldProject\bin\Debug\EpiFlow.OldProject.pdb
+M:\Projects\EpiFlow\EpiFlow.OldProject\obj\Debug\EpiFlow.OldProject.exe
+M:\Projects\EpiFlow\EpiFlow.OldProject\obj\Debug\EpiFlow.OldProject.pdb

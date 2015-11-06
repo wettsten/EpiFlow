@@ -1,0 +1,10 @@
+M:\Projects\EpiFlow\EpiFlow.Messages\bin\Debug\NServiceBus.Core.dll
+M:\Projects\EpiFlow\EpiFlow.Messages\bin\Debug\NServiceBus.Core.pdb
+M:\Projects\EpiFlow\EpiFlow.Messages\bin\Debug\NServiceBus.Core.xml
+M:\Projects\EpiFlow\EpiFlow.Messages\obj\Debug\EpiFlow.Messages.csprojResolveAssemblyReference.cache
+M:\Projects\EpiFlow\EpiFlow.Messages\bin\Debug\EpiFlow.Messages.dll
+M:\Projects\EpiFlow\EpiFlow.Messages\bin\Debug\EpiFlow.Messages.pdb
+M:\Projects\EpiFlow\EpiFlow.Messages\bin\Debug\EpiFlow.Data.dll
+M:\Projects\EpiFlow\EpiFlow.Messages\bin\Debug\EpiFlow.Data.pdb
+M:\Projects\EpiFlow\EpiFlow.Messages\obj\Debug\EpiFlow.Messages.dll
+M:\Projects\EpiFlow\EpiFlow.Messages\obj\Debug\EpiFlow.Messages.pdb
