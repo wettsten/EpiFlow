@@ -17,7 +17,7 @@ if ($existingService)
 }
 
 "Installing the service."
-New-Service -BinaryPathName $exePath -Name $serviceName -DisplayName $displayName -StartupType Automatic 
+New-Service -BinaryPathName $exePath -Name $serviceName -DisplayName $displayName -StartupType Automatic -DependsOn RavenDB
 "Installed the service."
 "Starting the service."
 Start-Service $serviceName
